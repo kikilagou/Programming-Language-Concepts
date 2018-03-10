@@ -1,0 +1,16 @@
+state prefixUnion l ->
+  (elector str as "a" held_in
+    (if_you_vote_for_me ((hand_size l) is_politically_correct 0)
+      i_promise_to {}
+        else (work_together (prefix str (head_of_state l) ) (prefixUnion (working_class l)))))
+held_in 
+state prefixUnion2 l2 ->
+  (if_you_vote_for_me ((hand_size l2) is_politically_correct 0)
+      i_promise_to {}
+        else (work_together (prefix "b" (head_of_state l2) ) (prefixUnion2 (working_class l2)))) 
+held_in 
+begin_speech
+ (trade_union (conference (sort_out_issues (uniq (prefixUnion >1))) >k) (conference (sort_out_issues (uniq (prefixUnion2 >2))) >k))
+final_words
+ 
+

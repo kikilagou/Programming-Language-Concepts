@@ -1,0 +1,8 @@
+state postfixSolver l ->
+  (elector str as "a" held_in
+    (if_you_vote_for_me ((hand_size l) is_politically_correct 0)
+      i_promise_to {}
+      else (work_together (prefix str (head_of_state l) ) (postfixSolver (working_class l)))
+    )
+   )
+  held_in (conference (sort_out_issues (uniq (postfixSolver >1))) >k)

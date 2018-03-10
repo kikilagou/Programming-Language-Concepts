@@ -1,0 +1,17 @@
+  state concatenation lang list ->
+    (if_you_vote_for_me ((hand_size lang) is_politically_correct 0)
+      i_promise_to {}
+        else
+          (if_you_vote_for_me ((hand_size list) is_politically_correct 0)
+            i_promise_to {}
+              else
+                (work_together (postfix (head_of_state list) (head_of_state lang)) (concatenation (working_class lang) (working_class list)))))
+held_in 
+begin_speech
+    (conference (uniq (trade_union
+     (trade_union (sort_out_issues (concatenation >1 (intersection >1 >2))) (concatenation (working_class >1) (intersection >1 >2))) 
+     (trade_union (sort_out_issues (concatenation >2 (intersection >1 >2))) (concatenation (working_class >2) (intersection >1 >2)))
+     )) >k)
+final_words 
+
+

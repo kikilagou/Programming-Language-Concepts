@@ -1,0 +1,15 @@
+state prefixintersectionsolver  l ->
+  (elector str as "a" held_in
+    (if_you_vote_for_me ((hand_size l) is_politically_correct 0)
+      i_promise_to {}
+        else (work_together (prefix str (head_of_state l) ) (prefixintersectionsolver  (working_class l)))))
+held_in 
+state prefixintersectionsolver2 l2 ->
+  (if_you_vote_for_me ((hand_size l2) is_politically_correct 0)
+      i_promise_to {}
+        else (work_together (prefix "a" (head_of_state l2) ) (prefixintersectionsolver2 (working_class l2)))) 
+held_in 
+begin_speech
+  (conference (intersection (sort_out_issues (uniq (prefixintersectionsolver  >1))) (sort_out_issues (uniq (prefixintersectionsolver2 >2)))) >k)
+final_words
+ 

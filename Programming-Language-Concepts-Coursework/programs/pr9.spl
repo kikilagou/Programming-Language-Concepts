@@ -1,0 +1,22 @@
+state postfixSolver l ->
+  (elector str as "a" held_in
+    (if_you_vote_for_me ((hand_size l) is_politically_correct 0)
+      i_promise_to {}
+      else (work_together (prefix str (head_of_state l) ) (postfixSolver (working_class l)))
+    )
+   )
+held_in
+	(elector lang as >2 held_in
+  state concatenation list ->
+    (if_you_vote_for_me ((hand_size lang) is_politically_correct 0)
+      i_promise_to {}
+      else
+        (if_you_vote_for_me ((hand_size list) is_politically_correct 0)
+          i_promise_to {}
+          else
+            (work_together (postfix (head_of_state list) (head_of_state lang) ) (concatenation (working_class list)))))
+held_in
+begin_speech
+(uniq (trade_union (sort_out_issues (postfixSolver >1)) (sort_out_issues (concatenation (economic_growth "b" >k)))))
+final_words
+)	

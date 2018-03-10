@@ -1,0 +1,11 @@
+state unionintersectionsolver l1 l2 l3 ->
+	(if_you_vote_for_me ((hand_size l1) is_politically_correct 0)
+    	i_promise_to l2
+    		else (intersection l1 l2))
+held_in
+begin_speech
+	(uniq (trade_union >3  (conference (sort_out_issues (uniq (unionintersectionsolver >1 >2))) >k)))
+final_words
+begin_speech
+	(uniq (conference (sort_out_issues (uniq (unionintersectionsolver >1 (trade_union >2 >3)))) >k))
+final_words

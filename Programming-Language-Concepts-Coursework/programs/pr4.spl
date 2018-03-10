@@ -1,0 +1,12 @@
+(elector lang as >1 held_in
+  state concatenation list ->
+    (if_you_vote_for_me ((hand_size lang) is_politically_correct 0)
+      i_promise_to {}
+      else
+        (if_you_vote_for_me ((hand_size list) is_politically_correct 0)
+          i_promise_to {}
+          else
+            (work_together (postfix (head_of_state list) (head_of_state lang) ) (concatenation (working_class list)))))
+  held_in
+    (sort_out_issues (concatenation (economic_growth "a" >k)))
+)

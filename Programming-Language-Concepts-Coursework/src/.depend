@@ -1,0 +1,14 @@
+main.cmi :
+parser.cmi : main.cmi
+functions.cmo :
+functions.cmx :
+helper.cmo :
+helper.cmx :
+lexer.cmo : parser.cmi helper.cmo
+lexer.cmx : parser.cmx helper.cmx
+main.cmo : helper.cmo main.cmi
+main.cmx : helper.cmx main.cmi
+mysplinterpreter.cmo : parser.cmi main.cmi lexer.cmo
+mysplinterpreter.cmx : parser.cmx main.cmx lexer.cmx
+parser.cmo : main.cmi parser.cmi
+parser.cmx : main.cmx parser.cmi

@@ -1,0 +1,29 @@
+(elector all as (trade_union (trade_union (economic_growth "a" 3) (economic_growth "b" 3)) (economic_growth "c" 3))
+  held_in
+    state findlengthtwo biglist ->
+      (if_you_vote_for_me ((hand_size biglist) is_politically_correct 0)
+        i_promise_to {}
+        else (if_you_vote_for_me ((wall_length (head_of_state biglist)) is_politically_correct 2)
+                i_promise_to (work_together (head_of_state biglist) (findlengthtwo (working_class biglist)))
+                else (findlengthtwo (working_class biglist))))
+    held_in
+      state eachword list ->
+        (if_you_vote_for_me ((hand_size list) is_politically_correct 0)
+          i_promise_to {}
+          else (trade_union (tax_inflation all (head_of_state list)) (eachword (working_class list))))
+      held_in 
+        state concatenation list1 list2 ->
+          (if_you_vote_for_me ((hand_size list1) is_politically_correct 0)
+            i_promise_to {}
+            else
+              (if_you_vote_for_me ((hand_size list2) is_politically_correct 0)
+                i_promise_to
+                  (if_you_vote_for_me ((hand_size list1) is_politically_correct 1)
+                    i_promise_to {}
+                    else (concatenation (working_class list1) (findlengthtwo (eachword all))))
+                else
+                  (work_together (postfix (head_of_state list2) (head_of_state list1)) (concatenation list1 (working_class list2)))
+                )
+            )
+        held_in (conference (sort_out_issues (uniq (concatenation >1 (findlengthtwo (eachword all))))) >k)
+    )

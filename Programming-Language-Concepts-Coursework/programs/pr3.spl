@@ -1,0 +1,11 @@
+state langUnion l1 l2 ->
+  (if_you_vote_for_me ((hand_size l1) is_politically_correct 0)
+    i_promise_to l2
+    else (intersection l1 l2))
+  held_in 
+    begin_speech
+      (conference (sort_out_issues (uniq (langUnion >1 >2))) >k)
+    final_words
+    begin_speech
+        (conference (sort_out_issues (uniq (langUnion >1 >3))) >k)
+    final_words
